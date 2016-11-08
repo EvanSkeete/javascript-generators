@@ -1,3 +1,4 @@
 {
-  "presets": ["transform-async-to-generator", "babel-preset-stage-0", "es2015-rollup"]
+  "plugins": ["transform-async-to-generator"],
+  "presets": ["babel-preset-stage-0", "es2015-rollup"]
 }
